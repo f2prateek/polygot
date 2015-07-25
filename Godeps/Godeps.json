@@ -1,0 +1,34 @@
+{
+	"ImportPath": "github.com/f2prateek/polygot",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/f2prateek/go-counter",
+			"Rev": "3370b65b26a0af365ddcf6589fe4073e7d84b159"
+		},
+		{
+			"ImportPath": "github.com/google/go-github/github",
+			"Rev": "af17a5fa8537e159dfa73f1dd1d3f08e34dea200"
+		},
+		{
+			"ImportPath": "github.com/google/go-querystring/query",
+			"Rev": "547ef5ac979778feb2f760cdb5f4eae1a2207b86"
+		},
+		{
+			"ImportPath": "github.com/tj/docopt",
+			"Comment": "v1.0.0",
+			"Rev": "c8470e45692f168e8b380c5d625327e756d7d0a9"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "ff8eb9a34a5cbb9941ffc6f84a19a8014c2646ad"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "b5adcc2dcdf009d0391547edc6ecbaff889f5bb9"
+		}
+	]
+}
