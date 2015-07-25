@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/golang.org/x/net/context"
+	"golang.org/x/net/context"
 )
 
 // Token represents the crendentials used to authorize

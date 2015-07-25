@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/f2prateek/polygot"
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/github.com/google/go-github/github"
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/github.com/tj/docopt"
+	"github.com/google/go-github/github"
+	"github.com/tj/docopt"
 )
 
 const (

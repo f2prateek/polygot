@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/golang.org/x/oauth2"
+	"golang.org/x/oauth2"
 )
 
 func ExampleConfig() {

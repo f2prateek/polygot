@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/github.com/google/go-querystring/query"
+	"github.com/google/go-querystring/query"
 )
 
 const (

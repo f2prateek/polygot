@@ -4,9 +4,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/github.com/f2prateek/go-counter"
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/github.com/google/go-github/github"
-	"github.com/f2prateek/polygot/Godeps/_workspace/src/golang.org/x/oauth2"
+	"github.com/f2prateek/go-counter"
+	"github.com/google/go-github/github"
+	"golang.org/x/oauth2"
 )
 
 type Polygot struct {
