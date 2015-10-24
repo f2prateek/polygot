@@ -80,7 +80,8 @@ func (p *Polygot) count(eventC <-chan github.Event) (map[string]int64, error) {
 			parts := strings.Split(*event.Repo.Name, "/")
 			repo, _, err := p.client.Repositories.Get(parts[0], parts[1])
 			if err != nil {
-				return c.Values(), err
+				log.Println("unable to fetch repository information for", *event.Repo.Name, err)
+				continue
 			}
 			if repo.Language == nil {
 				l = "unknown"
